@@ -9,5 +9,3 @@ read_config = configparser.ConfigParser()
 read_config.read("settings.ini")
 
 bot_token = read_config['settings']['token'].strip().replace(" ", "")
-
-chat_id = read_config['settings']['chat_id'].strip().replace(" ", "")
